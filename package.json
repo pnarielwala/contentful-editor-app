@@ -1,0 +1,32 @@
+{
+  "name": "contentful_app",
+  "version": "1.0.0",
+  "description": "Trunk Club App for Contentful",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.44",
+    "@types/react-dom": "16.9.8",
+    "@types/rebass": "4.0.6",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@contentful/forma-36-fcss": "0.2.4",
+    "@contentful/forma-36-react-components": "3.42.5",
+    "@contentful/forma-36-tokens": "0.7.2",
+    "@emotion/core": "10.0.28",
+    "@rebass/preset": "4.0.5",
+    "contentful-management": "6.0.3",
+    "contentful-ui-extensions-sdk": "3.17.0",
+    "emotion-theming": "10.0.27",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "rebass": "4.0.7"
+  }
+}
